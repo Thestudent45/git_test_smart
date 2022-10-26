@@ -1,9 +1,6 @@
-from math import sqrt,cos
+from math import *
 
-def vertor_perpendicular(a,b):
-    r = (a**2 + b**2) + (2 * a * b)
-    result = sqrt(r)
-    print(result)
+expresao = input('digite a formula: ')
+result = eval(expresao)
 
-vertor_perpendicular(float(input(':')),float(input(':')))
-print(cos(45))
+print(result)
